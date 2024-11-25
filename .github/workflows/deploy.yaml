@@ -70,4 +70,4 @@ jobs:
       - name: Deploy to server
         env:
           RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
-            run: render deploy --service ${{ secrets.SERVICE_ID }} --branch main
+        run: render deploy --service ${{ secrets.SERVICE_ID }} --branch main
